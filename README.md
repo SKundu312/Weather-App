@@ -12,7 +12,7 @@ A simple web-app displaying weather of the searched city through [OpenWeather](h
 
 ## View Here
 
-[Weather App]()
+[Weather App](https://prajesheleven.github.io/Weather-App/)
 
 ## Reference
 
