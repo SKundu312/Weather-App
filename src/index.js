@@ -37,7 +37,7 @@ setInterval(() => {
 // Weather integration
 
 let weather = {
-    "apiKey": "45b11607ce8aa9c3a54c0a355e420441",
+    "apiKey": "1a71fddaaef8394e60023c71f6691706",
     fetchWeather: function(city) {
         fetch("https://api.openweathermap.org/data/2.5/weather?q="
         + city
