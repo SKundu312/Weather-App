@@ -54,7 +54,7 @@ let weather = {
         const {speed} = data.wind
         // console.log(icon, name, country, temp, temp_min, temp_max)
         
-        document.getElementById("weathercon").src = "http://openweathermap.org/img/wn/" + icon + "@4x.png"
+        document.getElementById("weathercon").src = "https://openweathermap.org/img/wn/" + icon + "@4x.png"
         document.getElementById("desc").innerHTML = description
         document.getElementById("location").innerHTML = name
         document.getElementById("country").innerHTML = country
