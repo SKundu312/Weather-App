@@ -39,7 +39,7 @@ setInterval(() => {
 let weather = {
     "apiKey": "45b11607ce8aa9c3a54c0a355e420441",
     fetchWeather: function(city) {
-        fetch("http://api.openweathermap.org/data/2.5/weather?q="
+        fetch("https://api.openweathermap.org/data/2.5/weather?q="
         + city
         + "&units=metric&appid="
         + this.apiKey)
