@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="wave -one"></div>
+        <div class="wave -two"></div>
+        <div class="wave -three"></div>
+        <div class="search">
+            <input type="text" name="searchbar" id="searchbar" class="searchbar" placeholder="Search City" spellcheck="false">
+            <button type="submit" class="searchbtn" id="search-btn">
+                <i class="fas fa-search"></i>
+        </div>
+        <div class="info dummy">
+            <div class="weathercon">
+                <img src="" alt="" id="weathercon">
+                <!-- <i class="fas fa-sun" style="color:#eccc68"></i> -->
+                </img>
+            </div>
+            <div id="desc" class="desc"></div>
+            <h2 class="location">
+                <i class="fas fa-street-view"></i>
+                <span id="location"></span>, 
+                <span id="country"></span>
+            </h2>
+            <p id="date">Day | Date | Time</p>
+            <h1 class="temp">
+                <span id="temp"></span> &deg;C</h1>
+            <h3 class="temp-min-max">Min 
+                <span id="min-temp"></span> &deg;C | Max 
+                <span id="max-temp"></span> &deg;C
+            </h3>
+            <h3 class="temp-min-max">
+                Feels Like: 
+                <span id="feels"></span> &deg;C | Humidity: 
+                <span id="humidity"></span>&percnt;
+            </h3>
+            <h3 class="temp-min-max">
+                Wind Speed: 
+                <span id="speed"></span> km/h
+            </h3>
+        </div>
+        <div class="ftr">
+            <div class="git">
+                <a href="https://github.com/SKundu312/Weather-App" target="_blank" rel="noopener noreferrer">Github</a>
+            </div>
+        </div>
+    </div>
+    <script>    
+        
+        
+
+    </script>
+	<script src="src/index.js" defer></script>
+</body>
+</html>
